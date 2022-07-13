@@ -26,7 +26,7 @@ class WeatherRepository {
       'lat': location.lat.toString(),
       'lon': location.lon.toString(),
       'city': location.regionName,
-      'appId': '941a1d4f04f682080c1bc6dfb94eadb6',
+      'appId': '',
     };
     var url = Uri.http('api.openweathermap.org', '/data/2.5/weather', params);
     // Await the http get response, then decode the json-formatted response.
